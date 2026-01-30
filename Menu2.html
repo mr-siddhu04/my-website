@@ -134,7 +134,30 @@
         Prices are indicative and subject to change.
     </div>
 </div>
-<form action="index.html" style="text-align: center;">
+<style>
+  .form-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 200px;           /* Optional: gives the area some height */
+  }
+
+  .yellow-button {
+    background-color: #ffcc00;
+    color: black;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .yellow-button:hover {
+    background-color: #e6b800;
+  }
+</style>
+
+<form action="index.html" class="form-container">
     <button type="submit" class="yellow-button">HOME</button>
 </form>
 
